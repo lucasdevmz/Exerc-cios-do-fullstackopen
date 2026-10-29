@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 participant browser
 participant server
@@ -15,3 +16,4 @@ server-->>browser: File spa.js
 
 browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: File data.json
+```
