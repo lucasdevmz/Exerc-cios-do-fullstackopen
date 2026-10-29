@@ -1,9 +1,8 @@
 import Part from "./Part";
 
 const Content = (props) => {
-    console.log(props.part1);
-    console.log(props.part2);
-    console.log(props.part3);
+    console.log(props);
+  
     return(
         <div>
             <Part content={props.part1} exercise={props.exercises1}/>
