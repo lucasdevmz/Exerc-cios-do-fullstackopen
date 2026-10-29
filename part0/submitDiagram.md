@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 participant browser
 participant server
@@ -14,3 +15,4 @@ server-->>browser: File main.js
 
 browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: File data.json
+```
