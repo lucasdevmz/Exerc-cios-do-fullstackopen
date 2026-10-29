@@ -16,4 +16,8 @@ server-->>browser: File spa.js
 
 browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: File data.json
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 38eb146a032e62fbdc60c975c60a1caef30d21fe
